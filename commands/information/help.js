@@ -9,37 +9,37 @@ module.exports = {
         let prefix = message.guild?.prefix;
 
         const ANTINUKE = new MessageButton()
-            .setEmoji('<:Satxler_antinuke:1181289584483643433>')
+            .setEmoji('<:Satxler_ant:1218110681488953404>')
             .setCustomId('antinuke')
-            .setStyle('DANGER'); 
+            .setStyle('SECONDARY'); 
             const MOD = new MessageButton()
-            .setEmoji('<:Satxler_moderator:1181290384576491561>')
+            .setEmoji('<:Satxler_mod:1218111484861874226>')
             .setCustomId('mod')
-            .setStyle('DANGER'); 
+            .setStyle('SECONDARY'); 
             const INFO = new MessageButton()
-            .setEmoji('<:Satxler_utility:1181291761667149886>')
+            .setEmoji('<:Satxler_Uti:1218112303380168724>')
             .setCustomId('info')
-            .setStyle('DANGER'); 
+            .setStyle('SECONDARY'); 
             const WELCOME = new MessageButton()
-            .setEmoji('<:Satxler_autorole:1181290290238210158>')
+            .setEmoji('<<:Satxler_Wel:1218112881879679016>')
             .setCustomId('welcomer')
-            .setStyle('DANGER'); 
+            .setStyle('SECONDARY'); 
             const VOICE = new MessageButton()
-            .setEmoji('<:Satxler_mic:1181294198046072994>')
+            .setEmoji('<:Satxler_Mic:1218113777824694362>')
             .setCustomId('voice')
-            .setStyle('DANGER'); 
+            .setStyle('SECONDARY'); 
             const CUSTOM = new MessageButton()
             .setEmoji('<:Customrole:1199024011045253140>')
             .setCustomId('customrole')
-            .setStyle('DANGER'); 
+            .setStyle('SECONDARY'); 
             const LOGS = new MessageButton()
             .setEmoji('<:logs:1200416495461732353>')
             .setCustomId('logging')
-            .setStyle('DANGER'); 
+            .setStyle('SECONDARY'); 
             const AUTOMOD = new MessageButton()
-            .setEmoji('<:Satxler_Automod:1205791245473943553>')
+            .setEmoji('<:Satxler_Auto:1218177653840805978>')
             .setCustomId('automod')
-            .setStyle('DANGER'); 
+            .setStyle('SECONDARY'); 
             const ALL = new MessageButton()
             .setLabel('All Commands')
             .setCustomId('all')
@@ -55,31 +55,31 @@ module.exports = {
                       label: ' AntiNuke',
                       description: 'Get All AntiNuke Command List',
                       value: 'first',
-                      emoji: '<:Satxler_antinuke:1181289584483643433>'
+                      emoji: '<:Satxler_ant:1218110681488953404>'
                   },
                   {
                       label: ' Moderation',
                       description: 'Get All Moderation Command List',
                       value: 'second',
-                      emoji: '<:Satxler_moderator:1181290384576491561>'
+                      emoji: '<:Satxler_mod:1218111484861874226>'
                   },
                   {
                       label: 'Utility',
                       description: 'Get All Utility Command List',
                       value: 'third',
-                      emoji: '<:Satxler_utility:1181291761667149886>'
+                      emoji: '<:Satxler_Uti:1218112303380168724>'
                   },
                   {
                       label: 'Welcomer',
                       description: 'Get All Welcomer Command List',
                       value: 'fourth',
-                      emoji: '<:Satxler_autorole:1181290290238210158>'
+                      emoji: '<<:Satxler_Wel:1218112881879679016>'
                   },
                   {
                       label: 'Voice',
                       description: 'Get All Voice Command List',
                       value: 'fifth',
-                      emoji: '<:Satxler_mic:1181294198046072994>'
+                      emoji: '<:Satxler_Mic:1218113777824694362>'
                   },
                   {
                       label: 'Customrole',
@@ -97,7 +97,7 @@ module.exports = {
                       label: 'Automod',
                       description: 'Get All Automod Command List',
                       value: 'eight',
-                      emoji: '<:Satxler_Automod:1205791245473943553>'
+                      emoji: '<:Satxler_Auto:1218177653840805978>'
                   }
               ])
         );
@@ -110,12 +110,8 @@ module.exports = {
             })
             .setThumbnail(client.user.displayAvatarURL({ dynamic : true}))
             .setDescription(
-                `<:satx_dot:1222728929396396114> Prefix for this server \`${prefix}\`\n<:satx_dot:1222728929396396114>  Total Commands: \`${client.commands.size}\`**\n[Invite Me](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot) | [Support Server](https://discord.gg/zB6qdkETXr )**\nType \`${prefix}antinuke enable\` to get started up!`
+                `** Prefix for this server** \`${prefix}\`\n ** Total Commands:** \`${client.commands.size}\`**\n[Invite Me](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot) | [Support Server](https://discord.gg/5p6z8kh8sP)**\n\n**Type** \`${prefix}antinuke enable\` **to get started up!**`
             )
-            .addField(
-                'Command Category',
-                `**<:Satxler_antinuke:1181289584483643433> \`:\` AntiNuke\n<:Satxler_moderator:1181290384576491561>  \`:\` Moderation\n<:Satxler_utility:1181291761667149886> \`:\` Utility\n<:Satxler_autorole:1181290290238210158> \`:\` Welcomer\n<:Satxler_mic:1181294198046072994> \`:\` Voice**\n<:Customrole:1199024011045253140> \`:\` **Customrole**\n<:logs:1200416495461732353> \`:\` **Logger**\n<:Satxler_Automod:1205791245473943553> \`:\` **Automod**\n\n\`Choose A Category To Get All Commands List\``
-            );
 
         const helpMessage = await message.channel.send({ embeds: [embed], components: [row, row2 ,row3] });
 
@@ -149,7 +145,7 @@ module.exports = {
                             .filter((x) => x.category && x.category === 'security')
                             .map((x) => `\`${x.name}\``)
                             em.addField(
-                            `**<:Satxler_antinuke:1181289584483643433> Antinuke \`[${_commands.length}]\`**`,
+                            `**<:Satxler_ant:1218110681488953404> Antinuke \`[${_commands.length}]\`**`,
                             _commands.sort().join(', ')
                         )
 
@@ -186,7 +182,7 @@ module.exports = {
                             .filter((x) => x.category && x.category === 'mod')
                             .map((x) => `\`${x.name}\``)
                             em.addField(
-                                `**<:Satxler_moderator:1181290384576491561> Moderation \`[${_commands.length}]\`**`,
+                                `**<:Satxler_mod:1218111484861874226> Moderation \`[${_commands.length}]\`**`,
                                 _commands.sort().join(', ')
                         )
 
@@ -225,7 +221,7 @@ module.exports = {
                             .filter((x) => x.category && x.category === 'info')
                             .map((x) => `\`${x.name}\``)
                             em.addField(
-                                `**<:Satxler_utility:1181291761667149886> Utility \`[${_commands.length}]\`**`,
+                                `**<:Satxler_Uti:1218112303380168724> Utility \`[${_commands.length}]\`**`,
                                 _commands.sort().join(', ')
                         )
 
@@ -265,7 +261,7 @@ module.exports = {
                             .filter((x) => x.category && x.category === 'welcomer')
                             .map((x) => `\`${x.name}\``)
                             em.addField(
-                                `**<:Satxler_autorole:1181290290238210158> Welcomer \`[${_commands.length}]\`**`,
+                                `**<<:Satxler_Wel:1218112881879679016> Welcomer \`[${_commands.length}]\`**`,
                                 _commands.sort().join(', ')
                         )
 
@@ -304,7 +300,7 @@ module.exports = {
                             .filter((x) => x.category && x.category === 'voice')
                             .map((x) => `\`${x.name}\``)
                             em.addField(
-                                `**<:Satxler_mic:1181294198046072994> Voice \`[${_commands.length}]\`**`,
+                                `**<:Satxler_Mic:1218113777824694362> Voice \`[${_commands.length}]\`**`,
                                 _commands.sort().join(', ')
                         )
 
@@ -430,7 +426,7 @@ module.exports = {
                                 }
                             })
                             em.addField(
-                            `**<:Satxler_Automod:1205791245473943553> Automod \`[${cmd.length}]\`**`,
+                            `**<:Satxler_Auto:1218177653840805978> Automod \`[${cmd.length}]\`**`,
                             cmd.sort().join(', ')
                         )
 
@@ -466,35 +462,35 @@ module.exports = {
                         .filter((x) => x.category && x.category === 'security')
                         .map((x) => `\`${x.name}\``)
                         em.addField(
-                        `**<:Satxler_antinuke:1181289584483643433> Antinuke \`[${_commands.length}]\`**`,
+                        `**<:Satxler_ant:1218110681488953404> Antinuke \`[${_commands.length}]\`**`,
                         _commands.sort().join(', ')
                     )
                     _commands = client.commands
                         .filter((x) => x.category && x.category === 'mod')
                         .map((x) => `\`${x.name}\``)
                         em.addField(
-                            `**<:Satxler_moderator:1181290384576491561> Moderation \`[${_commands.length}]\`**`,
+                            `**<:Satxler_mod:1218111484861874226> Moderation \`[${_commands.length}]\`**`,
                             _commands.sort().join(', ')
                     )
                     _commands = client.commands
                     .filter((x) => x.category && x.category === 'info')
                     .map((x) => `\`${x.name}\``)
                     em.addField(
-                        `**<:Satxler_utility:1181291761667149886> Utility \`[${_commands.length}]\`**`,
+                        `**<:Satxler_Uti:1218112303380168724> Utility \`[${_commands.length}]\`**`,
                         _commands.sort().join(', ')
                 )                       
                  _commands = client.commands
                 .filter((x) => x.category && x.category === 'welcomer')
                 .map((x) => `\`${x.name}\``)
                 em.addField(
-                    `**<:Satxler_autorole:1181290290238210158> Welcomer \`[${_commands.length}]\`**`,
+                    `**<<:Satxler_Wel:1218112881879679016> Welcomer \`[${_commands.length}]\`**`,
                     _commands.sort().join(', ')
             )
             _commands = client.commands
             .filter((x) => x.category && x.category === 'voice')
             .map((x) => `\`${x.name}\``)
             em.addField(
-                `**<:Satxler_mic:1181294198046072994> Voice \`[${_commands.length}]\`**`,
+                `**<:Satxler_Mic:1218113777824694362> Voice \`[${_commands.length}]\`**`,
                 _commands.sort().join(', ')
         )
         let cmd = [];
@@ -531,7 +527,7 @@ module.exports = {
         }
     })
     em.addField(
-    `**<:Satxler_Automod:1205791245473943553> Automod \`[${cmdd.length}]\`**`,
+    `**<:Satxler_Auto:1218177653840805978> Automod \`[${cmdd.length}]\`**`,
     cmdd.sort().join(', ')
 )
 
