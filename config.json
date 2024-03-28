@@ -1,0 +1,29 @@
+{
+    "TOKEN": "MTE3OTYyMTE1NzkwNTg5MTMzOQ.GWyN4P.8zGWTuCebz5lLKC2UWxhkvtgOQg3VmHVRA3sLI",
+    "MONGO_DB": "mongodb+srv://satxler:jupiter@satxler.wsnyzxc.mongodb.net/?retryWrites=true&w=majority&appName=satxler",
+    "cooldown": true,
+    "owner": ["1212431696381612132","1143155471159664710"],
+    "admin": [
+        "1212431696381612132",
+        "1061393929473359922",
+        "1198321215618695250",
+        "775333233335205918",
+        "1143155471159664710",
+        "902363493242650635",
+        "855690571535876157",
+        "1143469898077569104",
+        "1187775437624053770"
+    ],
+    "np": [
+        "902363493242650635",
+        "1212431696381612132",
+        "1061393929473359922",
+        "855690571535876157",
+        "1143469898077569104",
+        "1187775437624053770",
+        "1198321215618695250",
+        "775333233335205918",
+        "1143155471159664710"
+    ],
+    "invite": "https://discord.com/api/oauth2/authorize?client_id=1026752851944415243&permissions=8&scope=bot"
+}
