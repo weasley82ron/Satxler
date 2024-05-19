@@ -3,7 +3,7 @@
 ## Story
 Bablu aka Archdev ka Coder leaked the Old Bitzxier's token and told people to nuke the servers and after that lxi the owner of Bitzxier just gave up on the bot as Bablu was the dev who did most of the work and also he snaked lxi + people nuked bunch of servers so he leaked the source and gave up on Bitzxier.
 
-
+# Emoji Server : https://discord.gg/xkeVJrsWcH
 # Setup Bitzxier's Premium database:
 
 [How to setup a mongoDB server on windows 10](https://youtu.be/ABAOvvBh99w)
