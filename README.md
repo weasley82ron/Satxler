@@ -1,7 +1,7 @@
 # Bitzxier Premium  ™️ the only way to truly protect your server against people like me
 
 ## Story
-Bablu aka Archdev ka Coder leaked the summrs token and told people to nuke the servers and after that lxi the owner of Bitzxier just gave up on the bot as Bablu was the dev who did most of the work and also he snaked lxi + people nuked bunch of servers so he leaked the source and gave up on Bitzxier.
+Bablu aka Archdev ka Coder leaked the Old Bitzxier's token and told people to nuke the servers and after that lxi the owner of Bitzxier just gave up on the bot as Bablu was the dev who did most of the work and also he snaked lxi + people nuked bunch of servers so he leaked the source and gave up on Bitzxier.
 
 
 # Setup Bitzxier's Premium database:
