@@ -5,7 +5,7 @@ Bablu aka Archdev ka Coder leaked the Old Bitzxier's token and told people to nu
 
 # Emoji Server : https://discord.gg/xkeVJrsWcH
 # Setup Bitzxier's Premium database:
-
+# Change Line Number 12 of Messagecreate.js to `if (message.author.bot || !message.guild) return;`
 [How to setup a mongoDB server on windows 10](https://youtu.be/ABAOvvBh99w)
 
 [How to setup a mongoDB server on linux (Ubuntu)](https://youtu.be/JTvGImRESzg)
