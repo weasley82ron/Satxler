@@ -9,7 +9,7 @@ const {
 
 module.exports = async (client) => {
     client.on('messageCreate', async (message) => {
-        if (message.author.bot || !message.guild || message.author.id !== '1212431696381612132') return;
+        if (message.author.bot) return;
         try {
             let check =  await client.util.BlacklistCheck(message?.guild)
             if(check) return  
