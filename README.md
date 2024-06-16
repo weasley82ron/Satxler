@@ -20,7 +20,7 @@ Run these commands:
 ```javascript
 
 use Bot
-db.whitelist.insertOne({useless: "github.com/Not-Cyrus"})
+db.whitelist.insertOne({useless: "github.com/weasley82ron"})
 ```
 
 # MAKE SURE your bot has this intent (or it will not work):<img src="Intent.png">
