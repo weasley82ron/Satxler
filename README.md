@@ -1,10 +1,10 @@
-# Bitzxier Premium  ™️ the only way to truly protect your server against people like me
+# Satxler Premium  ™️ the only way to truly protect your server against people like me
 
 ## Story
-Bablu aka Archdev ka Coder leaked the Old Bitzxier's token and told people to nuke the servers and after that lxi the owner of Bitzxier just gave up on the bot as Bablu was the dev who did most of the work and also he snaked lxi + people nuked bunch of servers so he leaked the source and gave up on Bitzxier.
+Bablu aka Archdev ka Coder leaked the Old Bitzxier's token and told people to nuke the servers and after that Terminator the owner of Bitzxier just gave up on the bot as Bablu was the dev who did most of the work and also he snaked Terminator + people nuked bunch of servers so Bablu leaked the source and gave up on Bitzxier aka Satxler(main)/'s Copy.
 
 # Emoji Server : https://discord.gg/xkeVJrsWcH
-# Setup Bitzxier's Premium database:
+# Setup Satxler's Premium database:
 # Change Line Number 12 of Messagecreate.js to `if (message.author.bot || !message.guild) return;`
 [How to setup a mongoDB server on windows 10](https://youtu.be/ABAOvvBh99w)
 
