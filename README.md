@@ -32,21 +32,21 @@ db.whitelist.insertOne({useless: "github.com/weasley82ron"})
 You will need these dependencies:
 
 ```YAML
-https://golang.org/dl/ - download this (>=1.15 (recommended: latest))
-go get github.com/bwmarrin/discordgo@v0.22.0 - command line
-go get go.mongodb.org/mongo-driver - command line
+install a particular node version 
+Go n Create your mongo db url
+Install dependencies and enjoy using the bot.
 ```
 
 After you've installed the dependencies, you are good to run this command:
 
 ```YAML
-cd (directory of the main.go file)
+cd (directory of the index.js file)
 
-go build -ldflags "-s -w"
+go and run "npm install"
 
-(you are also welcome to run it straight from the go file.)
+(then you can also welcome to run it straight from the index file.)
 
-go run main.go
+node index.js
 ```
 
 
